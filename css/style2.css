@@ -373,7 +373,7 @@
 
     /* Control how a Value looks if it is bigger than one line */
     foreignObject>body>div table>tr>td.largeValue {
-      padding: 2px;
+      padding-left: 2px;
       overflow-y: scroll;
     }
 
@@ -389,7 +389,7 @@
       word-wrap: break-word;
       white-space: normal;
       display: block;
-      height: 150px;
+      line-height: 16px;
     }
 
     .envData>g>foreignObject>body>div table>tr>td {
